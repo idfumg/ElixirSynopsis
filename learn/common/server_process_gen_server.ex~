@@ -1,0 +1,5 @@
+defmodule KeyValueStore do
+  use GenServer
+end
+
+KeyValueStore.__info__(:functions) # [code_change: 3, handle_call: 3, handle_cast: 2, handle_info: 2, init: 1, terminate: 2]

@@ -1,0 +1,7 @@
+defmodule KeyValueServer do
+  use GenServer
+
+  def init(_) do
+    :timer.send_interval(5000, :cleanup)
+  end
+end
