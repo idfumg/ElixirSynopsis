@@ -1,0 +1,5 @@
+# Raise a runtime error
+raise "Runtime error"
+
+# Raise an argument error
+raise ArgumentError, message: "the argument value is invalid"
