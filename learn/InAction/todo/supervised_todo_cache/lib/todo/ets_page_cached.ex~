@@ -1,7 +1,0 @@
-defmodule EtsPageCached do
-  use GenServer
-
-  def init(_) do
-    :ets.new(:ets_page_cache, [:set, :named_tuple, :protected])
-  end
-end

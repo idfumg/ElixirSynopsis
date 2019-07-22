@@ -1,3 +1,0 @@
-defmodule Todo.SystemSupervisor do
-
-end

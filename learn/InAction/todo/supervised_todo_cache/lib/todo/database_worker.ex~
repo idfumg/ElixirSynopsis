@@ -1,5 +1,0 @@
-defmodule Todo.DatabaseWorker do
-  use GenServer
-
-
-end

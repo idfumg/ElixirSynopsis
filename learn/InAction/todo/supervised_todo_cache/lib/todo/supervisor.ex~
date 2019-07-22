@@ -1,7 +1,0 @@
-defmodule Todo.Supervisor do
-  use Supervisor
-
-  def init(_) do
-    processes =
-  end
-end
